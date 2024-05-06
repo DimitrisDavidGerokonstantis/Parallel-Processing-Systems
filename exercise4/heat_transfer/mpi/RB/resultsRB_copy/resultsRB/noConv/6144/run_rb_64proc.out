@@ -1,0 +1,4 @@
+--------------------------------------------------------------------------
+mpirun noticed that process rank 48 with PID 12032 on node clone10 exited on signal 9 (Killed).
+--------------------------------------------------------------------------
+4 total processes killed (some possibly by mpirun during cleanup)

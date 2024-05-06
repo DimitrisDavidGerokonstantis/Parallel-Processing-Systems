@@ -1,0 +1,17 @@
+I am rank 1 with coords=(0, 1) and my boundaries are: i_min=2, i_max=513, j_min=1, j_max=513 and filou boundaries are i_min2=2, i_max2=513, j_min2=1, j_max2=513
+I am rank 2 with coords=(0, 2) and my boundaries are: i_min=2, i_max=513, j_min=1, j_max=513 and filou boundaries are i_min2=2, i_max2=513, j_min2=1, j_max2=513
+I am rank 3 with coords=(0, 3) and my boundaries are: i_min=2, i_max=513, j_min=1, j_max=512 and filou boundaries are i_min2=2, i_max2=513, j_min2=1, j_max2=512
+I am rank 4 with coords=(1, 0) and my boundaries are: i_min=1, i_max=513, j_min=2, j_max=513 and filou boundaries are i_min2=1, i_max2=513, j_min2=2, j_max2=513
+I am rank 5 with coords=(1, 1) and my boundaries are: i_min=1, i_max=513, j_min=1, j_max=513 and filou boundaries are i_min2=1, i_max2=513, j_min2=1, j_max2=513
+I am rank 6 with coords=(1, 2) and my boundaries are: i_min=1, i_max=513, j_min=1, j_max=513 and filou boundaries are i_min2=1, i_max2=513, j_min2=1, j_max2=513
+I am rank 7 with coords=(1, 3) and my boundaries are: i_min=1, i_max=513, j_min=1, j_max=512 and filou boundaries are i_min2=1, i_max2=513, j_min2=1, j_max2=512
+I am rank 8 with coords=(2, 0) and my boundaries are: i_min=1, i_max=513, j_min=2, j_max=513 and filou boundaries are i_min2=1, i_max2=513, j_min2=2, j_max2=513
+I am rank 9 with coords=(2, 1) and my boundaries are: i_min=1, i_max=513, j_min=1, j_max=513 and filou boundaries are i_min2=1, i_max2=513, j_min2=1, j_max2=513
+I am rank 10 with coords=(2, 2) and my boundaries are: i_min=1, i_max=513, j_min=1, j_max=513 and filou boundaries are i_min2=1, i_max2=513, j_min2=1, j_max2=513
+I am rank 11 with coords=(2, 3) and my boundaries are: i_min=1, i_max=513, j_min=1, j_max=512 and filou boundaries are i_min2=1, i_max2=513, j_min2=1, j_max2=512
+I am rank 12 with coords=(3, 0) and my boundaries are: i_min=1, i_max=512, j_min=2, j_max=513 and filou boundaries are i_min2=1, i_max2=512, j_min2=2, j_max2=513
+I am rank 13 with coords=(3, 1) and my boundaries are: i_min=1, i_max=512, j_min=1, j_max=513 and filou boundaries are i_min2=1, i_max2=512, j_min2=1, j_max2=513
+I am rank 14 with coords=(3, 2) and my boundaries are: i_min=1, i_max=512, j_min=1, j_max=513 and filou boundaries are i_min2=1, i_max2=512, j_min2=1, j_max2=513
+I am rank 0 with coords=(0, 0) and my boundaries are: i_min=2, i_max=513, j_min=2, j_max=513 and filou boundaries are i_min2=2, i_max2=513, j_min2=2, j_max2=513
+I am rank 15 with coords=(3, 3) and my boundaries are: i_min=1, i_max=512, j_min=1, j_max=512 and filou boundaries are i_min2=1, i_max2=512, j_min2=1, j_max2=512
+Jacobi X 2048 Y 2048 Px 4 Py 4 Iter 256 ComputationTime 2.064329 TotalTime 2.181195 midpoint 0.000000

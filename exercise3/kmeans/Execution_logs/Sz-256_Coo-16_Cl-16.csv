@@ -1,0 +1,8 @@
+Implementation,blockSize,av_loop_t,min_loop_t,max_loop_t
+Sequential,-1,0.382124,0.368204,0.384625
+Implementation,blockSize,av_loop_t,min_loop_t,max_loop_t
+Implementation,blockSize,av_loop_t,min_loop_t,max_loop_t
+Implementation,blockSize,av_loop_t,min_loop_t,max_loop_t
+Implementation,blockSize,av_loop_t,min_loop_t,max_loop_t
+Implementation,blockSize,av_loop_t,min_loop_t,max_loop_t
+Sequential,-1,0.382881,0.376324,0.387804

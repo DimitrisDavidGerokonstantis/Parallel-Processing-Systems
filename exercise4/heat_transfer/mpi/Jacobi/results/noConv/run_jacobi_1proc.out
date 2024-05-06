@@ -1,0 +1,2 @@
+I am rank 0 with coords=(0, 0) and my boundaries are: i_min=2, i_max=2048, j_min=2, j_max=2048 and filou boundaries are i_min2=2, i_max2=2048, j_min2=2, j_max2=2048
+Jacobi X 2048 Y 2048 Px 1 Py 1 Iter 256 ComputationTime 8.416032 TotalTime 8.416333 midpoint 0.000000

@@ -1,0 +1,6 @@
+gcc -Wall -Wextra -pthread -O3 main.c lib/aff.c ll/ll_serial.c -o x.serial
+gcc -Wall -Wextra -pthread -O3 main.c lib/aff.c ll/ll_cgl.c -o x.cgl
+gcc -Wall -Wextra -pthread -O3 main.c lib/aff.c ll/ll_fgl.c -o x.fgl
+gcc -Wall -Wextra -pthread -O3 main.c lib/aff.c ll/ll_opt.c -o x.opt
+gcc -Wall -Wextra -pthread -O3 main.c lib/aff.c ll/ll_lazy.c -o x.lazy
+gcc -Wall -Wextra -pthread -O3 main.c lib/aff.c ll/ll_nb.c -o x.nb

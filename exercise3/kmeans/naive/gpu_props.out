@@ -1,0 +1,168 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 16777216    numCoords = 2    numClusters = 16, block_size = 32
+
+
+|-------------Naive GPU Kmeans--------------|
+
+t_alloc: 44.780970 ms
+
+t_alloc_gpu: 157.554150 ms
+
+t_get_gpu: 75.412035 ms
+
+nloops = 10  : total = 1146.089077 ms
+	-> t_loop_avg = 114.608908 ms
+	-> t_loop_min = 105.472088 ms
+	-> t_loop_max = 150.105953 ms
+
+|-------------------------------------------|
+Device 0: NVIDIA GeForce GTX 1060 6GB
+Compute Capability: 6.1
+totalGlobalMem: 6367543296 bytes
+multiProcessorCount: 10
+maxThreadsPerMultiProcessor: 2048
+maxThreadsPerBlock: 1024
+multiProcessorCount: 10
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 16777216    numCoords = 2    numClusters = 16, block_size = 64
+
+
+|-------------Naive GPU Kmeans--------------|
+
+t_alloc: 45.230865 ms
+
+t_alloc_gpu: 103.915930 ms
+
+t_get_gpu: 76.138973 ms
+
+nloops = 10  : total = 1101.809025 ms
+	-> t_loop_avg = 110.180902 ms
+	-> t_loop_min = 101.120949 ms
+	-> t_loop_max = 189.409018 ms
+
+|-------------------------------------------|
+Device 0: NVIDIA GeForce GTX 1060 6GB
+Compute Capability: 6.1
+totalGlobalMem: 6367543296 bytes
+multiProcessorCount: 10
+maxThreadsPerMultiProcessor: 2048
+maxThreadsPerBlock: 1024
+multiProcessorCount: 10
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 16777216    numCoords = 2    numClusters = 16, block_size = 128
+
+
+|-------------Naive GPU Kmeans--------------|
+
+t_alloc: 44.769049 ms
+
+t_alloc_gpu: 128.307104 ms
+
+t_get_gpu: 75.108051 ms
+
+nloops = 10  : total = 1097.154140 ms
+	-> t_loop_avg = 109.715414 ms
+	-> t_loop_min = 100.693941 ms
+	-> t_loop_max = 189.434052 ms
+
+|-------------------------------------------|
+Device 0: NVIDIA GeForce GTX 1060 6GB
+Compute Capability: 6.1
+totalGlobalMem: 6367543296 bytes
+multiProcessorCount: 10
+maxThreadsPerMultiProcessor: 2048
+maxThreadsPerBlock: 1024
+multiProcessorCount: 10
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 16777216    numCoords = 2    numClusters = 16, block_size = 256
+
+
+|-------------Naive GPU Kmeans--------------|
+
+t_alloc: 45.198202 ms
+
+t_alloc_gpu: 128.077030 ms
+
+t_get_gpu: 76.153994 ms
+
+nloops = 10  : total = 1103.515863 ms
+	-> t_loop_avg = 110.351586 ms
+	-> t_loop_min = 101.402998 ms
+	-> t_loop_max = 189.530849 ms
+
+|-------------------------------------------|
+Device 0: NVIDIA GeForce GTX 1060 6GB
+Compute Capability: 6.1
+totalGlobalMem: 6367543296 bytes
+multiProcessorCount: 10
+maxThreadsPerMultiProcessor: 2048
+maxThreadsPerBlock: 1024
+multiProcessorCount: 10
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 16777216    numCoords = 2    numClusters = 16, block_size = 512
+
+
+|-------------Naive GPU Kmeans--------------|
+
+t_alloc: 44.795036 ms
+
+t_alloc_gpu: 127.254963 ms
+
+t_get_gpu: 75.108051 ms
+
+nloops = 10  : total = 1104.156017 ms
+	-> t_loop_avg = 110.415602 ms
+	-> t_loop_min = 101.729155 ms
+	-> t_loop_max = 187.616110 ms
+
+|-------------------------------------------|
+Device 0: NVIDIA GeForce GTX 1060 6GB
+Compute Capability: 6.1
+totalGlobalMem: 6367543296 bytes
+multiProcessorCount: 10
+maxThreadsPerMultiProcessor: 2048
+maxThreadsPerBlock: 1024
+multiProcessorCount: 10
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 16777216    numCoords = 2    numClusters = 16, block_size = 1024
+
+
+|-------------Naive GPU Kmeans--------------|
+
+t_alloc: 45.292854 ms
+
+t_alloc_gpu: 127.820015 ms
+
+t_get_gpu: 76.138020 ms
+
+nloops = 10  : total = 1116.286039 ms
+	-> t_loop_avg = 111.628604 ms
+	-> t_loop_min = 102.673054 ms
+	-> t_loop_max = 190.612078 ms
+
+|-------------------------------------------|
+Device 0: NVIDIA GeForce GTX 1060 6GB
+Compute Capability: 6.1
+totalGlobalMem: 6367543296 bytes
+multiProcessorCount: 10
+maxThreadsPerMultiProcessor: 2048
+maxThreadsPerBlock: 1024
+multiProcessorCount: 10
+

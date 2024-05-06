@@ -1,0 +1,27 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 33554432    numCoords = 1    numClusters = 8
+Initial cluster centers:
+clusters[0] =   0.00
+clusters[1] =   1.09
+clusters[2] =   2.22
+clusters[3] =   3.32
+clusters[4] =   4.43
+clusters[5] =   5.53
+clusters[6] =   6.66
+clusters[7] =   8.87
+
+OpenMP Kmeans - Reduction	(number of threads: 16)
+	completed loop 1	completed loop 2	completed loop 3	completed loop 4	completed loop 5	completed loop 6	completed loop 7	completed loop 8	completed loop 9	completed loop 10
+        nloops =  10   (total = 13.0645s)  (per loop =  1.3065s)
+
+Final cluster centers:
+clusters[0] =   0.46 
+clusters[1] =   1.39 
+clusters[2] =   2.39 
+clusters[3] =   3.48 
+clusters[4] =   4.69 
+clusters[5] =   6.04 
+clusters[6] =   7.54 
+clusters[7] =   9.17 

@@ -1,0 +1,7 @@
+mpi_skeleton.c: In function 'main':
+mpi_skeleton.c:48:28: warning: unused variable 'converged' [-Wunused-variable]
+     int global_converged=0,converged=0; //flags for convergence, global and per process
+                            ^
+mpi_skeleton.c:48:9: warning: unused variable 'global_converged' [-Wunused-variable]
+     int global_converged=0,converged=0; //flags for convergence, global and per process
+         ^

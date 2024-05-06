@@ -1,0 +1,492 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 16777216    numCoords = 2    numClusters = 16, block_size = 32
+
+
+|-------------Naive GPU Kmeans--------------|
+
+t_alloc: 45.216084 ms
+
+t_alloc_gpu: 159.878016 ms
+
+t_get_gpu: 75.031042 ms
+
+nloops = 10  : total = 1175.940990 ms
+	-> t_loop_avg = 117.594099 ms
+	-> t_loop_min = 108.220100 ms
+	-> t_loop_max = 194.930792 ms
+
+|-------------------------------------------|
+CPU time=728.760958(ms)
+GPU time=289.620876(ms)
+CPUtoGPU time=0.286341(ms)
+GPUtoCPU time=157.269955(ms)
+Device 0: NVIDIA GeForce GTX 1060 6GB
+Compute Capability: 6.1
+totalGlobalMem: 6367543296 bytes
+multiProcessorCount: 10
+maxThreadsPerMultiProcessor: 2048
+maxThreadsPerBlock: 1024
+multiProcessorCount: 10
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 16777216    numCoords = 2    numClusters = 16, block_size = 64
+
+
+|-------------Naive GPU Kmeans--------------|
+
+t_alloc: 44.922113 ms
+
+t_alloc_gpu: 127.111912 ms
+
+t_get_gpu: 74.285030 ms
+
+nloops = 10  : total = 1127.130032 ms
+	-> t_loop_avg = 112.713003 ms
+	-> t_loop_min = 103.621006 ms
+	-> t_loop_max = 186.238050 ms
+
+|-------------------------------------------|
+CPU time=709.485054(ms)
+GPU time=240.946054(ms)
+CPUtoGPU time=0.339270(ms)
+GPUtoCPU time=176.356554(ms)
+Device 0: NVIDIA GeForce GTX 1060 6GB
+Compute Capability: 6.1
+totalGlobalMem: 6367543296 bytes
+multiProcessorCount: 10
+maxThreadsPerMultiProcessor: 2048
+maxThreadsPerBlock: 1024
+multiProcessorCount: 10
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 16777216    numCoords = 2    numClusters = 16, block_size = 128
+
+
+|-------------Naive GPU Kmeans--------------|
+
+t_alloc: 45.183897 ms
+
+t_alloc_gpu: 126.882076 ms
+
+t_get_gpu: 74.841976 ms
+
+nloops = 10  : total = 1126.270056 ms
+	-> t_loop_avg = 112.627006 ms
+	-> t_loop_min = 103.813887 ms
+	-> t_loop_max = 190.896988 ms
+
+|-------------------------------------------|
+CPU time=701.942921(ms)
+GPU time=241.432905(ms)
+CPUtoGPU time=0.212908(ms)
+GPUtoCPU time=182.676077(ms)
+Device 0: NVIDIA GeForce GTX 1060 6GB
+Compute Capability: 6.1
+totalGlobalMem: 6367543296 bytes
+multiProcessorCount: 10
+maxThreadsPerMultiProcessor: 2048
+maxThreadsPerBlock: 1024
+multiProcessorCount: 10
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 16777216    numCoords = 2    numClusters = 16, block_size = 256
+
+
+|-------------Naive GPU Kmeans--------------|
+
+t_alloc: 44.905901 ms
+
+t_alloc_gpu: 129.348040 ms
+
+t_get_gpu: 74.492931 ms
+
+nloops = 10  : total = 1133.040190 ms
+	-> t_loop_avg = 113.304019 ms
+	-> t_loop_min = 104.300022 ms
+	-> t_loop_max = 192.852020 ms
+
+|-------------------------------------------|
+CPU time=703.182220(ms)
+GPU time=247.181654(ms)
+CPUtoGPU time=0.193119(ms)
+GPUtoCPU time=182.480335(ms)
+Device 0: NVIDIA GeForce GTX 1060 6GB
+Compute Capability: 6.1
+totalGlobalMem: 6367543296 bytes
+multiProcessorCount: 10
+maxThreadsPerMultiProcessor: 2048
+maxThreadsPerBlock: 1024
+multiProcessorCount: 10
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 16777216    numCoords = 2    numClusters = 16, block_size = 512
+
+
+|-------------Naive GPU Kmeans--------------|
+
+t_alloc: 45.197964 ms
+
+t_alloc_gpu: 133.579016 ms
+
+t_get_gpu: 74.713945 ms
+
+nloops = 10  : total = 1140.521049 ms
+	-> t_loop_avg = 114.052105 ms
+	-> t_loop_min = 104.859114 ms
+	-> t_loop_max = 185.791016 ms
+
+|-------------------------------------------|
+CPU time=712.231159(ms)
+GPU time=251.836777(ms)
+CPUtoGPU time=0.292301(ms)
+GPUtoCPU time=176.159859(ms)
+Device 0: NVIDIA GeForce GTX 1060 6GB
+Compute Capability: 6.1
+totalGlobalMem: 6367543296 bytes
+multiProcessorCount: 10
+maxThreadsPerMultiProcessor: 2048
+maxThreadsPerBlock: 1024
+multiProcessorCount: 10
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 16777216    numCoords = 2    numClusters = 16, block_size = 1024
+
+
+|-------------Naive GPU Kmeans--------------|
+
+t_alloc: 44.912100 ms
+
+t_alloc_gpu: 129.443169 ms
+
+t_get_gpu: 74.718237 ms
+
+nloops = 10  : total = 1150.713921 ms
+	-> t_loop_avg = 115.071392 ms
+	-> t_loop_min = 105.877161 ms
+	-> t_loop_max = 191.123962 ms
+
+|-------------------------------------------|
+CPU time=709.511757(ms)
+GPU time=261.199951(ms)
+CPUtoGPU time=0.342369(ms)
+GPUtoCPU time=179.656029(ms)
+Device 0: NVIDIA GeForce GTX 1060 6GB
+Compute Capability: 6.1
+totalGlobalMem: 6367543296 bytes
+multiProcessorCount: 10
+maxThreadsPerMultiProcessor: 2048
+maxThreadsPerBlock: 1024
+multiProcessorCount: 10
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 16777216    numCoords = 2    numClusters = 16, block_size = 32
+
+
+|-----------Transpose GPU Kmeans------------|
+
+t_alloc: 240.998983 ms
+
+t_alloc_gpu: 130.697012 ms
+
+t_get_gpu: 74.721098 ms
+
+nloops = 10  : total = 1022.822857 ms
+	-> t_loop_avg = 102.282286 ms
+	-> t_loop_min = 101.905107 ms
+	-> t_loop_max = 104.811907 ms
+
+|-------------------------------------------|
+CPU time=588.616610(ms)
+GPU time=276.359558(ms)
+CPUtoGPU time=0.361681(ms)
+GPUtoCPU time=157.481909(ms)
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 16777216    numCoords = 2    numClusters = 16, block_size = 64
+
+
+|-----------Transpose GPU Kmeans------------|
+
+t_alloc: 238.906860 ms
+
+t_alloc_gpu: 128.923178 ms
+
+t_get_gpu: 74.157953 ms
+
+nloops = 10  : total = 991.044998 ms
+	-> t_loop_avg = 99.104500 ms
+	-> t_loop_min = 98.981142 ms
+	-> t_loop_max = 99.266052 ms
+
+|-------------------------------------------|
+CPU time=586.061954(ms)
+GPU time=247.837305(ms)
+CPUtoGPU time=0.187635(ms)
+GPUtoCPU time=156.952143(ms)
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 16777216    numCoords = 2    numClusters = 16, block_size = 128
+
+
+|-----------Transpose GPU Kmeans------------|
+
+t_alloc: 239.511013 ms
+
+t_alloc_gpu: 126.703024 ms
+
+t_get_gpu: 74.702978 ms
+
+nloops = 10  : total = 994.122982 ms
+	-> t_loop_avg = 99.412298 ms
+	-> t_loop_min = 99.095106 ms
+	-> t_loop_max = 101.773977 ms
+
+|-------------------------------------------|
+CPU time=585.799456(ms)
+GPU time=250.502825(ms)
+CPUtoGPU time=0.198841(ms)
+GPUtoCPU time=157.618999(ms)
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 16777216    numCoords = 2    numClusters = 16, block_size = 256
+
+
+|-----------Transpose GPU Kmeans------------|
+
+t_alloc: 239.032984 ms
+
+t_alloc_gpu: 125.934839 ms
+
+t_get_gpu: 74.181795 ms
+
+nloops = 10  : total = 1005.026102 ms
+	-> t_loop_avg = 100.502610 ms
+	-> t_loop_min = 100.054026 ms
+	-> t_loop_max = 103.279114 ms
+
+|-------------------------------------------|
+CPU time=586.207390(ms)
+GPU time=258.842230(ms)
+CPUtoGPU time=0.188112(ms)
+GPUtoCPU time=159.787416(ms)
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 16777216    numCoords = 2    numClusters = 16, block_size = 512
+
+
+|-----------Transpose GPU Kmeans------------|
+
+t_alloc: 238.892078 ms
+
+t_alloc_gpu: 125.771046 ms
+
+t_get_gpu: 74.566126 ms
+
+nloops = 10  : total = 999.126196 ms
+	-> t_loop_avg = 99.912620 ms
+	-> t_loop_min = 99.558115 ms
+	-> t_loop_max = 100.690126 ms
+
+|-------------------------------------------|
+CPU time=585.947752(ms)
+GPU time=255.369425(ms)
+CPUtoGPU time=0.210285(ms)
+GPUtoCPU time=157.597780(ms)
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 16777216    numCoords = 2    numClusters = 16, block_size = 1024
+
+
+|-----------Transpose GPU Kmeans------------|
+
+t_alloc: 238.328934 ms
+
+t_alloc_gpu: 128.953218 ms
+
+t_get_gpu: 74.272156 ms
+
+nloops = 10  : total = 1030.813217 ms
+	-> t_loop_avg = 103.081322 ms
+	-> t_loop_min = 102.523088 ms
+	-> t_loop_max = 104.968071 ms
+
+|-------------------------------------------|
+CPU time=586.321831(ms)
+GPU time=287.168026(ms)
+CPUtoGPU time=0.195980(ms)
+GPUtoCPU time=157.124043(ms)
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 16777216    numCoords = 2    numClusters = 16, block_size = 32
+
+
+|-----------Shared GPU Kmeans------------|
+
+t_alloc: 239.534855 ms
+
+t_alloc_gpu: 128.663063 ms
+
+t_get_gpu: 74.641943 ms
+
+nloops = 10  : total = 995.648861 ms
+	-> t_loop_avg = 99.564886 ms
+	-> t_loop_min = 99.148989 ms
+	-> t_loop_max = 102.203846 ms
+
+|-------------------------------------------|
+CPU time=586.364508(ms)
+GPU time=248.065710(ms)
+CPUtoGPU time=0.208855(ms)
+GPUtoCPU time=161.005735(ms)
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 16777216    numCoords = 2    numClusters = 16, block_size = 64
+
+
+|-----------Shared GPU Kmeans------------|
+
+t_alloc: 239.848852 ms
+
+t_alloc_gpu: 128.039837 ms
+
+t_get_gpu: 74.190855 ms
+
+nloops = 10  : total = 953.693867 ms
+	-> t_loop_avg = 95.369387 ms
+	-> t_loop_min = 94.900846 ms
+	-> t_loop_max = 98.200798 ms
+
+|-------------------------------------------|
+CPU time=585.478067(ms)
+GPU time=211.286306(ms)
+CPUtoGPU time=0.191689(ms)
+GPUtoCPU time=156.735897(ms)
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 16777216    numCoords = 2    numClusters = 16, block_size = 128
+
+
+|-----------Shared GPU Kmeans------------|
+
+t_alloc: 239.802122 ms
+
+t_alloc_gpu: 128.304958 ms
+
+t_get_gpu: 74.545145 ms
+
+nloops = 10  : total = 956.303120 ms
+	-> t_loop_avg = 95.630312 ms
+	-> t_loop_min = 95.227957 ms
+	-> t_loop_max = 98.161936 ms
+
+|-------------------------------------------|
+CPU time=586.400032(ms)
+GPU time=212.187767(ms)
+CPUtoGPU time=0.205994(ms)
+GPUtoCPU time=157.504320(ms)
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 16777216    numCoords = 2    numClusters = 16, block_size = 256
+
+
+|-----------Shared GPU Kmeans------------|
+
+t_alloc: 243.656874 ms
+
+t_alloc_gpu: 130.396843 ms
+
+t_get_gpu: 74.354172 ms
+
+nloops = 10  : total = 962.739944 ms
+	-> t_loop_avg = 96.273994 ms
+	-> t_loop_min = 95.726013 ms
+	-> t_loop_max = 98.976851 ms
+
+|-------------------------------------------|
+CPU time=587.323189(ms)
+GPU time=218.325138(ms)
+CPUtoGPU time=0.186920(ms)
+GPUtoCPU time=156.900883(ms)
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 16777216    numCoords = 2    numClusters = 16, block_size = 512
+
+
+|-----------Shared GPU Kmeans------------|
+
+t_alloc: 243.647099 ms
+
+t_alloc_gpu: 132.153034 ms
+
+t_get_gpu: 74.599028 ms
+
+nloops = 10  : total = 989.067793 ms
+	-> t_loop_avg = 98.906779 ms
+	-> t_loop_min = 98.343134 ms
+	-> t_loop_max = 101.463795 ms
+
+|-------------------------------------------|
+CPU time=586.631536(ms)
+GPU time=244.372129(ms)
+CPUtoGPU time=0.213146(ms)
+GPUtoCPU time=157.848835(ms)
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 16777216    numCoords = 2    numClusters = 16, block_size = 1024
+
+
+|-----------Shared GPU Kmeans------------|
+
+t_alloc: 240.070820 ms
+
+t_alloc_gpu: 133.533955 ms
+
+t_get_gpu: 74.237108 ms
+
+nloops = 10  : total = 993.294954 ms
+	-> t_loop_avg = 99.329495 ms
+	-> t_loop_min = 99.119186 ms
+	-> t_loop_max = 100.167990 ms
+
+|-------------------------------------------|
+CPU time=582.947493(ms)
+GPU time=252.675533(ms)
+CPUtoGPU time=0.193596(ms)
+GPUtoCPU time=157.476425(ms)
+

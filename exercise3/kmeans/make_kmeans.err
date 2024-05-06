@@ -1,0 +1,11 @@
+cuda_kmeans_naive.cu(129): warning #177-D: variable "loop_iterations" was declared but never referenced
+      int loop_iterations = 0;
+          ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z20find_nearest_clusteriiiPdS_PiS_' for 'sm_60'
+ptxas info    : Function properties for _Z20find_nearest_clusteriiiPdS_PiS_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 368 bytes cmem[0], 4 bytes cmem[2]
