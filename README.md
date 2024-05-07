@@ -1,6 +1,6 @@
 # Parallel Processing Systems
 
-Semester project for the course "Parallel Processing Systems" (NTUA, 2023-24)
+Semester project for the course "Parallel Processing Systems" (NTUA, 2023-24).
 The project consists of 4 separate parts and has to do with both shared and distributed memory architectures
 as well as with GPUs.
 
